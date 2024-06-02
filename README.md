@@ -12,7 +12,6 @@ This model predicts the loan status whether it is "Approved" or "Not Approved" d
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Installation
 
@@ -21,16 +20,14 @@ This model predicts the loan status whether it is "Approved" or "Not Approved" d
 - Git
 
 ### Steps
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/ruru-lyy/Loan_Prediction_Model
-    ```
-2. Change directory:
-    ```bash
-    cd Loan_Prediction_Model
-    ```
-3. Install dependencies:
-    ```bash
+1. Download the repository as a zip file from this [this link](https://github.com/ruru-lyy/Loan_Prediction_Model/archive/refs/heads/main.zip).
+
+2. Extract the downloaded zip file to a directory of your choice.
+
+3. Open a terminal or command prompt and change directory to the extracted folder (Loan_Prediction_Model).
+
+4. Install dependencies:
+   ```bash
     pip install -r requirements.txt
     ```
 
@@ -56,6 +53,8 @@ python gui.py
 - Model performance evaluation and comparison.
 
 ## Dataset
+
+![Dataset Example](images/dataset.png)
 
 This dataset is taken from Kaggle and contains the following details about bank loan applicants-
 
@@ -85,6 +84,7 @@ This dataset is taken from Kaggle and contains the following details about bank 
 
 13. Loan_Status: The status of the loan application. 'Y' means the loan was approved, and 'N' means it was not approved.
 
+
 ## Models Used
 
 - Logistic Regression
@@ -96,7 +96,7 @@ This dataset is taken from Kaggle and contains the following details about bank 
 ## Results
 The Random Forest Classifier and the Support Vector Machine achieved the best performance with an accuracy of 80.66% after hyperparameter tuning.
 
-## Performance Before and After Hyperparameter Tuning
+### Performance Before and After Hyperparameter Tuning
 
 1. Logistic Regression
 - Before Tuning: 79.3%
@@ -107,6 +107,11 @@ The Random Forest Classifier and the Support Vector Machine achieved the best pe
 3. Random Forest Classifier
 - Before Tuning: 77.47%
 - After Tuning: 80.66%
+
+### GUI
+
+A simple GUI is provided to input the loan application details and get the prediction.
+![GUI](images/GUI.png)
   
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with a clear description of your changes.
@@ -114,13 +119,5 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Screenshots
-
-A screenshot of the user-friendly GUI for making loan predictions.
-
-![GUI](images/GUI.png)
-
-
-
-
+[MIT](https://choosealicense.com/licenses/mit/)
 
