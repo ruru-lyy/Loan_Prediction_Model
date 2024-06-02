@@ -17,10 +17,10 @@ This model predicts the loan status whether it is "Approved" or "Not Approved" d
 
 ### Prerequisites
 - Python 3.x
-- Git
+
 
 ### Steps
-1. Download the repository as a zip file from this [this link](https://github.com/ruru-lyy/Loan_Prediction_Model/archive/refs/heads/main.zip).
+1. Download the repository as a zip file from this [link](https://github.com/ruru-lyy/Loan_Prediction_Model/archive/refs/heads/main.zip).
 
 2. Extract the downloaded zip file to a directory of your choice.
 
